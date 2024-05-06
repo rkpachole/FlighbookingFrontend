@@ -1,0 +1,65 @@
+.flightgroup{
+    background-image: url('../../../../assets//images//bg-fl.jpg');
+    margin-top: 70px;
+    width: 100%;
+    padding: 50px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flightgroup .fgroupbtn{
+    background: linear-gradient(90deg, rgba(27, 116, 232, 1) 0%, rgba(73, 163, 241, 1) 100%) !important;
+    color: #fff !important;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 13px 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lastsearch{
+    padding: 20px;
+    border-radius: 15px;
+}
+.lastsearch .lastunder:hover{
+    color: red !important;
+}
+.flight-lishting .sortby{
+    background-color: #e5e7eb;
+}
+.flight-lishting .onlinefare{
+    background-color: #0099e0;
+    width: 81px;
+    padding-left: 2px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+.flight-lishting .Economy{
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+    margin-left: 25px;
+}
+.flight-lishting .Refundable{
+    font-size: 14px;
+    font-weight: 600;
+    color: #009900;
+    margin-left: 5px;
+}
+.flight-lishting .Refundable i{
+    font-size: 18px;
+    margin-left: 6px;
+}
+.flight-lishting .corporate{
+    background-color: #FBF6CA;
+    padding: 4px;
+    margin: 15px 0px;
+    text-align: center;
+    border-radius: 4px;
+    color: #000;
+    font-size: 12px;
+}

@@ -1,0 +1,229 @@
+.hotel-banner{
+    background-image: url('../../../../assets//images//bg-fl.jpg');
+    padding: 120px 0 80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.hotel-box{
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+.hotelshow{
+    box-shadow: 2px 2px 7px #0000003b;
+    background-color: #fff;
+    width: 700px;
+    padding: 7px 11px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #b7b7b7;
+    border-radius: 8px;
+    z-index: 9;
+    margin-top: 10px;
+}
+.hotel-searbtn{
+    position: relative;
+    bottom: initial;
+    padding: 17px 13px !important;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #6c5ffc;
+    border-radius: 35px;
+    color: #fff !important;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.hotelbt-bar{
+    background-color: #474747;
+    padding: 20px 0;
+    color: white;
+}
+.hotel-list .hotelcard{
+   border-radius: 10px;
+}
+.hotel-list .hotelcard:hover{
+    border: 1px solid black;
+ }
+.hotel-list .cardhoteimg{
+    background-image: url('https://media.istockphoto.com/id/104731717/photo/luxury-resort.jpg?s=612x612&w=0&k=20&c=cODMSPbYyrn1FHake1xYz9M8r15iOfGz9Aosy9Db7mI=');
+    height: 180px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 0  0 10px;
+    background-position: center;
+}
+.hotel-list .hheading{
+  color: #474747;
+  padding: 10px 0  0px 0;
+  font-weight: 700;
+  font-size: 19px;
+} 
+.hotel-list .hotelstar{
+    font-size: 12px;
+}
+.hotel-list .hsubheading{
+   color: rgb(158, 152, 152);
+   font-size: 12px;
+}
+.hotel-list  .service-box{
+    margin-right: 5px;
+    float: left;
+    border: 1px solid #66be5b;
+    color: #66be5b;
+    padding: 3px 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.hotel-list .priceheading{
+    margin-bottom: 0px;
+    font-size: 24px;
+    margin-top:54px;
+}
+.hotel-list .pricesubheading{
+    color: #737373;
+    margin-bottom: 5px;
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    margin-top: 3px;
+}
+.hotel-list .viewmore{
+   background-color: #ec0909;
+   color: white ;
+   border-radius: 10px;
+   outline: none;
+   border: none;
+   font-size: 22px;
+   padding: 7px 15px;
+   margin-left: 10px;
+}
+.hotel-list .hote-price{
+    padding: 0 33px;
+}
+.hotelsear .css-13cymwt-control {
+    margin-top: 5px;
+    border: none;
+}
+.hotelsear .css-b62m3t-container {
+    position: relative;
+    box-sizing: border-box;
+    height: 58px;
+}
+.hotelsear .css-1u9des2-indicatorSeparator{
+    display: none;
+}
+ .select-box{
+    width: 110px !important;
+}
+.add-field-icon{
+    margin-top: 26px;
+    border-radius: 50px;
+    width: 35px;
+    height: 34px;
+    text-align: center;
+}
+.add-field-icon .add-icon{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -9px;
+}
+.delete-icon{
+    margin-top: 28px;
+    width: 31px;
+    height: 31px;
+}
+.delete-icon .de-icon{
+    font-size: 15px;
+    margin-left: 9px;
+    position: absolute;
+    margin-top: 8px;
+}
+.popup-text{
+    margin-top: 28px;
+}
+.hotel-list .priceranngebox{
+    color: #ec0909;
+}
+/* ---------------------- */
+.hotelreatting{
+    margin-top: 10px;
+    box-shadow: 2px 2px 7px #0000003b;
+    background-color: #fff;
+    width: 184px;
+    padding: 7px 11px;
+    position: absolute;
+    right: 0;
+    border: 1px solid #b7b7b7;
+    border-radius: 8px;
+    z-index: 9;
+}
+.cardhoteimg .Hotel-box{
+    background-color: #e82646;
+    height: 26px;
+    width: 50px;
+    padding: 0px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0 0 10px;
+    padding-left: 5px;
+}
+.ptmain .hotelstar{
+    color: orange;
+}
+/* -----mediaqure-----start----- */
+@media(max-width: 1024px){
+    .hotel-list .cardhoteimg{
+        height: 180px;
+    }
+    .css-14pt78w-MuiSlider-rail{
+        width: 185px !important;
+    }
+}
+@media(max-width: 991px){
+    .hotel-list .ptmain{
+        padding: 0 0 14px 30px
+    }
+}
+@media(max-width: 992px){
+    .css-14pt78w-MuiSlider-rail{
+        width: 100% !important;
+    }
+    .hotel-list .cardhoteimg{
+        height: 208px;
+        border-radius: 10px  10px 0  0;
+    }
+   
+}
+@media(max-width: 767px){
+    .hotel-list .mbb{
+        margin-bottom: 22px;
+        width: 100% !important;
+    }
+}
+@media(max-width: 768px){
+   
+    .css-14pt78w-MuiSlider-rail{
+        width: 100%;
+    }
+    .hotel-list .ptmain{
+        padding: 0 0 14px 30px
+    } 
+}
+@media(max-width: 425px){
+    .hotel-list .plt{
+        margin-left: 10px;
+    }
+    
+    .hotel-list .priceheading{
+        margin-top: 15px;
+    }
+}

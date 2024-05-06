@@ -1,0 +1,90 @@
+.select-passanger {
+    background-color: #e9e7ff !important;
+  }
+  .seat-selected{
+    background-color: green !important;
+    color: white !important; 
+  }
+  .seat label.seat-selected:before{
+    background-color: transparent !important;
+  }
+  @media screen and (max-width: 1024px) {
+    .seat-map-model .flight-flag {
+      width: 35px !important;
+  }
+  .seat-map-model .flightname {
+    font-size: 14px;
+  }
+  .seat-map-model .flightnumber {
+    font-size: 11px !important;
+  }
+  .seat-map-model .seat-status-font{
+   font-size: 14px;
+  }
+  }
+
+  
+  @media screen and (max-width: 1000px) {
+    .seat-map-model .flight-flag {
+      width: 35px !important;
+  }
+  .seat-map-model .flightname {
+    font-size: 14px;
+  }
+  .seat-map-model .flightnumber {
+    font-size: 11px !important;
+  }
+  .seat-map-model .seat-status-font{
+   font-size: 14px;
+  }
+  .seat-map-model .seat-color-box {
+    width: 15px;
+    height: 16px;
+  }
+  .seat-map-model .priceInfo{
+      font-size: 13px;
+  }
+  }
+
+  @media screen and (max-width: 868px) {
+    .seat-map-model .flight-flag {
+      width: 35px !important;
+  }
+  .seat-map-model .flightname {
+    font-size: 14px;
+  }
+  .seat-map-model .flightnumber {
+    font-size: 11px !important;
+  }
+  .seat-map-model .seat-status-font{
+   font-size: 14px;
+  }
+  .seat-map-model .seat-color-box {
+    width: 15px;
+    height: 16px;
+  }
+  .seat-map-model .priceInfo{
+      font-size: 13px;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    .seat-map-model .flight-flag {
+      width: 31px !important;
+  }
+  .seat-map-model .flightname {
+    font-size: 11px;
+  }
+  .seat-map-model .flightnumber {
+    font-size: 9px !important;
+  }
+  .seat-map-model .seat-status-font{
+    font-size: 14px;
+  }
+  .seat-map-model .seat-color-box {
+    width: 15px;
+    height: 16px;
+  }
+  .seat-map-model .priceInfo{
+      font-size: 13px;
+  }
+  }

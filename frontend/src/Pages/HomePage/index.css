@@ -1,0 +1,195 @@
+/* Responsive css */
+.bannerbtn{
+    margin-top: 30px;
+}
+@media screen and (max-width: 1024px) {
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 160px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-img-icon {
+        width: 120px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 100px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 55px;
+    }
+    .travel-agents-aatm .section__title {
+        font-size: 31px;
+    }
+}
+@media screen and (max-width: 668px) {
+    .home-img-icon {
+        width: 100px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 80px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 45px;
+        line-height: 50px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-img-icon {
+        width: 100px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 80px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 45px;
+        line-height: 50px !important;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 578px) {
+    .home-img-icon {
+        width: 100px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 80px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 45px;
+        line-height: 50px !important;
+    }
+    .bannerbtn {
+        width: 264px;
+    }
+    .bannerbtn .btn-started {
+        padding: 7px 16px;
+    }
+    .bannerbtn .btn-demo {
+        padding: 7px 16px;
+    }
+    .travel-agents-aatm .section__title {
+        font-size: 25px;
+    }
+    .travel-agents-aatm .section__title__short {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 525px) {
+    .home-img-icon {
+        width: 80px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 50px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 45px;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 80px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 45px;
+        line-height: 50px !important;
+    }
+    .bannerbtn {
+        width: 264px;
+    }
+    .bannerbtn .btn-started {
+        padding: 7px 16px;
+    }
+    .bannerbtn .btn-demo {
+        padding: 7px 16px;
+    }
+}
+@media screen and (max-width: 480px) {
+
+ .home-banner .home-banner-conten {
+        transform: translate(0px, 60px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 35px;
+        line-height: 50px !important;
+    }
+    .bannerbtn {
+        width: 225px;
+        margin-top: 20px;
+    }
+    .bannerbtn .btn-started {
+        padding: 7px 16px;
+    }
+    .bannerbtn .btn-demo {
+        padding: 7px 16px;
+    }
+    .travel-agents-aatm .section__title {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .travel-agents-aatm .section__title__short {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .home-img-icon {
+        width: 50px !important;
+    }
+    .get-more-incentive .card-section-one .text--title {
+        font-size: 37px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 44px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 20px;
+        line-height: 25px !important;
+    }
+    .bannerbtn {
+        width: 171px;
+        margin-top: 20px;
+    }
+    .bannerbtn .btn-started {
+        padding: 4px 10px;
+        font-size: 10px;
+        margin-left: 48px;
+    }
+    .bannerbtn .btn-demo {    
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .home-img-icon {
+        width: 50px !important;
+    }
+    .get-more-incentive .card-section-one .text--title {
+        font-size: 37px !important;
+    }
+    .home-banner .home-banner-conten {
+        transform: translate(0px, 44px);
+    }
+    .home-banner .home-banner-conten h1 {
+        font-size: 20px;
+        line-height: 25px !important;
+    }
+    .bannerbtn {
+        margin-top: 20px;
+    }
+    .bannerbtn .btn-started {
+        padding: 4px 10px;
+        font-size: 10px;
+        margin-left: 59px;
+    }
+    .bannerbtn .btn-demo {    
+        padding: 4px 10px;
+        font-size: 10px;
+        margin-left: 76px;
+        margin-top: -16px;
+    }
+    .travel-agents-aatm .section__title {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .travel-agents-aatm .section__title__short {
+        font-size: 10px;
+    }
+}

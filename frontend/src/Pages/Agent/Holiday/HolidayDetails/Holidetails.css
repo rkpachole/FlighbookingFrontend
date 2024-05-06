@@ -1,0 +1,175 @@
+.Holidetails .heading{
+    font-size: 26px;
+    font-weight: 700;
+    color: #474747;
+    margin-right: 10px;
+}
+.Holidetails  .buget{
+    background-color: #ffe185;
+    padding: 5px 12px;
+    color: grey;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.hddloveriew{
+    font-size: 14px;
+}
+.Holidetails .holiprice{
+    color: #e52b30;
+} 
+.Holidetails .holilist{
+    list-style: none;
+    text-align: left;
+    padding-inline-start: 0%;
+}
+.Holidetails .holilist li{
+   display: inline;
+   padding: 0 10px;
+   padding-inline-start: 0%;
+}
+.Holidetails .holilist li a{
+    color: black;
+    font-size: 14px;
+    text-align: left;
+}
+.Holidetails .holilist li a:hover{
+    color: green;
+}
+.Holidetails .holiradius{
+    border-radius: 20px;
+}
+.Holidetails .holidaydays{
+    background-color: #e52b30;
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Holidetails .holidetails{
+    padding-top: 10px;
+}
+.Holidetails  input::placeholder {
+    font: 1.1rem/3 sans-serif !important;
+    color: gray;
+}
+ .hldtlinput input::placeholder {
+    font: 1.1rem/3 sans-serif !important;
+    color: gray;
+}
+.hldlpr-main{
+    background-color: #f8f8f8;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.Holidetails .hldlpr-main .hldlpr-main1{
+    width: 50%; 
+}
+.Holidetails .hldlpr-main .hldlpr-main2{
+    width: 50%;
+}
+.Holidetails .hldlpr-main .hldlpr-main2 .hldetail-price{
+    font-size: 20px;
+    margin-left: 17px;
+}
+.Holidetails .holiradius .hldtimg{
+       width: 42px;
+}
+/* ---------------------------- */
+@media(max-width :1399px){
+    .hddloveriew{
+        font-size: 12px;
+    }
+}
+@media(max-width :1199px){
+    .hddloveriew{
+        font-size: 9px;
+    }
+}
+@media(max-width :991px){
+    .hddloveriew{
+        font-size: 12px;
+    }
+}
+@media(max-width :767px){
+    .hldlpr-main{
+        width: 100%;
+    }
+    .Holidetails .hldlpr-main .hldlpr-main1{
+        width: 20%; 
+    }
+    .Holidetails .hldlpr-main .hldlpr-main2{
+        width: 80%;
+    }
+}
+@media(max-width :500px){
+    .hldlpr-main{
+        width: 100%;
+    }
+    .Holidetails .hldlpr-main .hldlpr-main1{
+        width: 25%; 
+    }
+    .Holidetails .hldlpr-main .hldlpr-main2{
+        width: 75%;
+    }
+    .hddloveriew{
+        font-size: 11px;
+    }
+}
+
+@media(max-width :425px){
+    .Holidetails .holidetails{
+        justify-content: center;
+        padding-top: 7px;
+    }
+    .Holidetails .holidetails h5{
+       text-align: center;
+    }
+    .hldlpr-main{
+        width: 100%;
+    }
+    .Holidetails .hldlpr-main .hldlpr-main1{
+        width: 25%; 
+    }
+    .Holidetails .hoteldetails .hldlpr-main .hldlpr-main2{
+        width: 75%;
+    }
+    .Holidetails .safelites{
+        text-align: center;
+        font-size: 11px;
+    }
+    .hddloveriew{
+        font-size: 8px;
+    }
+   
+}
+
+@media(max-width :375px){
+  
+
+    .Holidetails .hldlpr-main .hldlpr-main1{
+        width: 30%; 
+    }
+    .Holidetails .hoteldetails .hldlpr-main .hldlpr-main2{
+        width: 70%;
+    }
+    .Holidetails .safelites{
+        text-align: center;
+        font-size: 11px;
+    }
+    .hddloveriew{
+        font-size: 6px;
+        font-weight: 500;
+    }
+    .Holidetails .holiradius .hldtimg{
+        width: 30px;
+ }
+}
+

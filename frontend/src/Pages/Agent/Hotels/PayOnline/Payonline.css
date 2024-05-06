@@ -1,0 +1,59 @@
+.payonline{
+    margin-top: 70px;
+}
+.payonline .heading{
+    color: #474747;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.payonline .pinform{
+    background-color: #f1e9e9 !important;
+    /* padding-left: 12px; */
+}
+.payonline .pwallet{
+    background-color: #e4f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;  
+}
+.payonline .payonlinebtn{
+    background-color: #ec0909;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+@media(max-width: 992px){
+    .payonline .pwallet{
+        height: 100px;
+    }
+    .payonline .htPaybox{
+        padding-left: 24px;
+        padding-bottom: 15px;
+    }
+}
+@media(max-width:425px){
+  
+    .payonline .pwallet{
+        height: 100px;
+    }
+}
+@media(max-width:375px){
+    .payonline .GSTNmber{
+       position: relative;
+       right:-0px;
+    }  
+}
+
+@media(max-width:320px){
+    .payonline .GSTNmber{
+       position: relative;
+       right:-0px;
+    }  
+}

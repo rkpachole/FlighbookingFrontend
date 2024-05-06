@@ -1,0 +1,60 @@
+.search-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+.vl-line{
+    height: 50px;
+    border-left: 1px solid white;   
+}
+.booking-btn{
+    background-color: #6c757d;
+    color: white;
+}
+.main-row{
+    margin-bottom: 90px;
+}
+.flight-item-list .flight-scroll{
+    width: 50%;
+    padding: 10px;
+    overflow: auto;
+    height: 75vh;
+    cursor: pointer;
+}
+
+
+@media (max-width: 991px) { 
+   
+}
+/* @media (max-width: 767.98px) { ... }
+@media (max-width: 991.98px) { ... }
+@media (max-width: 1199.98px) { ... }
+@media (max-width: 1399.98px) { ... } */
+
+@media(max-width: 425px){
+    .flrtshview{
+        margin-left: 23px;
+        margin-bottom: 7px  ;
+    }
+}
+@media(max-width: 375px){
+    .flrtshview{
+        margin-left: 23px;
+        margin-bottom: 7px  ;
+    }
+    .flrtcard-body{
+      padding: 12px !important;
+    }
+    
+}
+@media(max-width: 320px){
+    .flrtcard-body{
+        padding: 5px !important;
+      }
+    .flrtshview{
+        margin-left: 14px;
+        margin-bottom: 7px  ;
+    }
+}

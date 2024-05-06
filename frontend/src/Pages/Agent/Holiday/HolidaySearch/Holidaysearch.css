@@ -1,0 +1,99 @@
+.holdiaybanner{
+    background-image: url('../../../../assets//images//bg-fl.jpg');
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.holdiaybanner .holidaybtn{
+    background-color: #6c5ffc;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holdiaymain .hcustomer{
+    color: #666666;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.hodidaysebanner{
+    background-image: url(../../../../assets/images/holiday5.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   flex-direction: column;
+}
+.hodidaysebanne .hkeyword{
+    color: white !important;
+    font-size: 55px !important;
+    font-weight: bold;
+}
+.holiday-main .hveiow{
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff !important;
+    padding: 3px 5px;
+    border-radius: 20px;
+    white-space: nowrap;
+    background: #1A73E8 !important;
+    border: none;
+}
+.holiday-main  .hdstfrom{
+    font-size: 12px;
+}
+.holiday-main .hoheading{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.holiday-main .hopriceing{
+    color: rgb(12, 1, 1) !important;
+}
+.holiday-main .hosliderh{
+    color: #1A73E8;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.holiday-main .slick-arrow{
+    background-color: #1A73E8;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.holiday-main .slick-arrow:hover{
+    background-color: #1A73E8 !important;
+    border-radius: 50px;
+}
+.holiday-main .slick-slide {
+    padding:10px;
+    text-align:center;
+}
+.slick-dots ul li{
+    background-color: #1A73E8;
+    color: #1A73E8;
+}
+@media(max-width: 1024px){
+    .holdiaymain .holirestext{
+     padding-left: 20px;
+    }
+}
+@media(max-width: 425px){
+    .holdiaybanner{
+        padding: 20px;
+    }
+}

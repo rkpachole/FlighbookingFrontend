@@ -1,0 +1,55 @@
+.header {
+    background-color: #000;
+}
+.header .navbar 
+{
+    border-radius:0px;
+    padding: 12px 0;
+}
+.header .navbar  .nav-item .nav-link.active
+{
+    color: #6c5ffc;
+    background-color: transparent;
+}
+.header .navbar  .nav-item .nav-link
+{
+    color: #000;
+    font-size: 17px;
+}
+.header .navbar  .nav-item .login-btn {
+    background: #6c5ffc;
+    color: #fff;
+    font-size: 15px;
+    padding: 16px 37px;
+}
+
+.header .navbar  .nav-item .agent-btn {
+    background: #FFD700 !important;
+    color: #6a040f !important;
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 16px 37px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar .navbar-nav .nav-link {
+        padding:  0px  !important;
+        margin-top: 10px;
+    } 
+
+    .header .navbar  .nav-item .login-btn {
+        background: #6c5ffc;
+        color: #fff;
+        font-size: 15px;
+        padding: 10px !important;
+    }
+
+    .header .navbar  .nav-item .agent-btn {
+        background: #FFD700 !important;
+        color: #6a040f !important;
+        font-size: 15px;
+        margin-top: 10px !important;
+        padding: 10px !important;
+        margin-left: 0px !important;
+    }
+}

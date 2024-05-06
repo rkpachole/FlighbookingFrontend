@@ -1,0 +1,211 @@
+.flight-flag {
+    width: 48px;
+    height: max-content;
+}
+.flightname {
+    font-size: 15px;
+    font-weight: 600;
+}
+.flightnumber {
+    font-size: 11px;
+    color: #848f91;
+    padding-left: 8px;
+    font-weight: 500;
+}
+
+.coltime {
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+}
+.graysmalltext {
+    font-size: 13px;
+    color: #848f91;
+    font-weight: 500;
+}
+.nostops {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.pricelisttable .pricelistright {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+.pricelisttable .label-warning {
+    box-sizing: border-box;
+    padding: 1px 5px;
+    border-radius: 0;
+    display: inherit;
+    background: #f3e6bb;
+    color: #876e1e;
+    float: left;
+    font-size: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.pricelisttable .label--text {
+    box-sizing: border-box;
+    padding: 0px 5px;
+    border-radius: 0;
+    display: inherit;
+    color: #666666;
+    float: left;
+    font-size: 10px;
+    border-radius: 2px;
+    margin-right: 5px;
+    font-size: 11px;
+}
+.pricelisttable  .rdable {
+    color: #009900;
+}
+.pricelisttable .sharechek {
+    font-size: 12px;
+    line-height: 21px;
+    padding-top: 0px;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    color: #009900;
+}
+.pricelisttable .sharechek .sck {
+    width: 14px !important;
+    height: 16px !important;
+    margin-right: 5px;
+}
+.pricelisttable .ymessage {
+    background-color: #FBF6CA;
+    padding: 4px;
+    margin: 7px 0px;
+    text-align: center;
+    border-radius: 4px;
+    color: #000;
+}
+.pricelisttable .morefrebt {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #6c5ffc !Important;
+    border: 1px solid #6c5ffc;
+    border-radius: 20px;
+    padding: 3px 10px;
+    text-decoration: none;
+    margin-top: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+/****Flight-Fillter****/
+ 
+.flight-Fillter .btn-check:checked + .btn-outline-light {
+    background: #e8e8e8 !important;
+    text-align: center;
+    color: #666666;
+    border-color: #bab8bb !important;
+}
+.flight-Fillter .btn-outline-light {
+    border: 1px  solid #bab8bb;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.flight-Fillter .btn-outline-light:hover, .btn-check + .btn.btn-outline-light:hover {
+    border-color: #bab8bb !important;
+ }
+/****Flight-Fillter****/
+/*------- flightdetails---- */
+.timeshow{
+  text-align: end;
+}
+@media(max-width:425px){
+    .flightdetailsdata .coltime {
+        font-size: 17px !important;
+        color: #000;
+        font-weight: 600;
+    }
+    .flightdetailsdata .flightname {
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+    .flightdetailsdata .flightnumber {
+        font-size: 12px !important;
+    }
+    .flightdetailsdata .graysmalltext {
+        font-size: 14px !important;
+    }
+    .flightdetailsdata  .nostops{
+        font-size: 18px !important; 
+    }
+    .flightdetailsdata  .graysmallNon{
+        font-size: 18px !important; 
+    }
+    .timeshow{
+        text-align:left;
+    }
+    .pricelisttable .sharechek{
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 375px){
+    .flightdetailsdata .coltime {
+        font-size: 16px !important;
+        color: #000;
+        font-weight: 600;
+    }
+    .flightdetailsdata .flightname {
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+    .flightdetailsdata .flightnumber {
+        font-size: 12px !important;
+    }
+    .flightdetailsdata .graysmalltext {
+        font-size: 14px !important;
+    }
+    .flightdetailsdata  .nostops{
+        font-size: 17px !important; 
+    }
+    .flightdetailsdata  .graysmallNon{
+        font-size: 17px !important; 
+    }
+    .pricelisttable .sharechek{
+        padding-left: 0px;
+        position: relative;
+        left: -8px;
+    }
+}
+
+@media(max-width: 320px){
+    .flightdetailsdata .coltime {
+        font-size: 15px !important;
+        color: #000;
+        font-weight: 600;
+    }
+    .flightdetailsdata .flightname {
+        font-size: 12px !important;
+        font-weight: 600;
+    }
+    .flightdetailsdata .flightnumber {
+        font-size: 11px !important;
+    }
+    .flightdetailsdata .graysmalltext {
+        font-size: 12px !important;
+    }
+    .flightdetailsdata  .nostops{
+        font-size: 14.2px !important; 
+    }
+    .flightdetailsdata  .graysmallNon{
+        font-size: 14.2px !important; 
+    }
+    .pricelisttable .sharechek{
+        padding-left: 0px;
+        position: relative;
+        left: -18px;
+    }
+}

@@ -1,0 +1,53 @@
+.holidaystate .hostateprice{
+    color: #ec0909;
+}
+/* .holidaystate .hostatebtn{
+    font-size: 20px;
+} */
+ .card-stbox:hover{
+    outline: 2px solid black;
+    color:#09b5b1;
+}
+.card-stbox:hover .statename{
+    color:#09b5b1 !important;
+}
+.holidaystate .holitexticon h6{
+    font-size: 18px;
+}
+.holidaystate .hlstoviewdt{
+    font-size: 14px;
+}
+.holidaystate .state-image{
+    background-image: url("../../../../assets/images/holiday5.jpg");
+    width: 100%;
+    height: 192px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.holidaystate .state-image .hlstdn{
+    background-color: #333333;
+    padding: 5px 8px;
+    color: white;
+    font-size: 12px;
+    border-radius: 0px 8px 0px 0px;
+}
+@media(max-width: 1024px){
+    .holidaystate .holitexticon h6{
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .holidaystate .hlstoviewdt{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 768px){
+    .holidaystate .holitexticon h6{
+        font-size: 13px;
+        font-weight: 0;
+    }
+}

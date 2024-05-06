@@ -1,0 +1,81 @@
+.Dash-btn{
+    color: blueviolet;
+    background-color: red;
+}
+
+.notification-bell{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.agent-button{
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.user-text{
+        font-size: 13px;
+        font-weight: 700;
+}
+.wallet-text{
+    margin: 5px;
+    
+}
+.wallet-icon {
+    background-color: #e9e7ff;
+    padding: 6px;
+    border-radius: 5px 0px 0px 5px;
+    font-weight: bold;
+    color: #6c5ffc;
+}
+.wallet-btn{
+    height: 35px;
+    padding: 0px;
+    margin-top: 15px;
+    border: 1px solid #cbcbcb;
+}
+.app-header .icon-size{
+        font-size: 15px !important;
+}
+.app-header .profile-icon{
+    color: #6c5ffc;
+}
+.holidaybtn{
+  background-color: #ef4b4b !important;
+  color: white !important;
+}
+.busbtn{
+  background-color: #43285a !important;
+  color: white !important;
+}
+.cross-side {
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    display: none;
+}
+.mini-btn {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+
+}
+
+@media (max-width: 991px) {
+
+    .app-sidebar {
+        inset-inline-start: -273px;
+    }
+    .app-sidebar.slidebar-show {
+        inset-inline-start: 0px;
+    }
+    .main-sidebar {
+        margin-block-start: 31px;
+    }
+    .main-sidebar-header {
+         display: block !important;
+    }
+    .cross-side {
+        display: block;
+    }
+    
+}
